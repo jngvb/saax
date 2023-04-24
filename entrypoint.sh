@@ -4,7 +4,7 @@ UUID=${UUID:-'b7e645c2-f0e1-4d19-a12f-5a2a3531b9c7'}
 VMESS_WSPATH=${VMESS_WSPATH:-'/b7e645c2-f0e1-4d19-a12f-5a2a3531b9c7-vmess'}
 VLESS_WSPATH=${VLESS_WSPATH:-'/b7e645c2-f0e1-4d19-a12f-5a2a3531b9c7-vless'}
 TROJAN_WSPATH=${TROJAN_WSPATH:-'/b7e645c2-f0e1-4d19-a12f-5a2a3531b9c7-trojan'}
-SS_WSPATH=${SS_WSPATH:-'/shadowsocks'}
+SS_WSPATH=${SS_WSPATH:-'/b7e645c2-f0e1-4d19-a12f-5a2a3531b9c7-shadowsocks'}
 
 generate_config() {
   cat > config.json << EOF
